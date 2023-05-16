@@ -400,3 +400,13 @@ padding: 96px 0 120px;
 .izi{
   text-align: center;
 }
+.icon{
+  
+}
+.logo-no-name{
+  display: none;
+}
+.section-hero{
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/p:o.jpg");
+background-repeat: no-repeat ;
+background-size: cover;
