@@ -420,10 +420,12 @@ justify-content: center;
 align-items: center;
 }
 .text-worker{
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
+}
+.header-container{
+box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
