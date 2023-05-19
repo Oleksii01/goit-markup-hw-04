@@ -399,7 +399,6 @@ background-size: cover;
 }
 .worker-soc-list {
 display: flex;
-justify-content: center;
 gap: 24px;
 }
 .worker-soc-item {
@@ -451,4 +450,11 @@ display: block;
   display: flexbox;
   justify-content: center;
   align-content: center;
+gap: 24px;
+}
+.footer-container{
+  display: flex;
+}
+.container-logo{
+  margin-right: 120px;
 }
