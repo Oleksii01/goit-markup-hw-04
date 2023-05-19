@@ -448,13 +448,28 @@ display: block;
   background-color: var(--team-section-color);
   border-radius: 4px;
   display: flexbox;
-  justify-content: center;
-  align-content: center;
-gap: 24px;
+  gap: 24px;
 }
 .footer-container{
   display: flex;
 }
 .container-logo{
   margin-right: 120px;
+}
+.section-no-icons{
+  padding: 120px 156px;
+}
+.socials-icon{
+  display: flex;
+  gap: 24px;
+
+}
+.socials{
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  display: flexbox;
+  
+  border: 1px solid rgba(142, 143, 153, 1)
+  
 }
