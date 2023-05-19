@@ -392,9 +392,6 @@ padding: 96px 0 120px;
 .izi{
   text-align: center;
 }
-.logo-no-name{
-  display: none;
-}
 .section-hero{
   background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/p:o.jpg");
 background-repeat: no-repeat ;
@@ -433,4 +430,16 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   justify-content: center;
   align-content: center;
 display: block;
+}
+.visually-hidden{
+  position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
