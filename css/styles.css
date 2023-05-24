@@ -386,7 +386,9 @@ text-transform: uppercase;
 display: inline-block;
 margin-bottom: 16px;
   }
-
+  .footer-container{
+    align-items: baseline;
+  }
 .text-worker{
   padding: 32px 16px;
 ;
@@ -500,15 +502,12 @@ color: var(--main-background-color);
 .search{
   width: 168px;
   height: 88px;
-  border-radius: 4px;
-  border: 1px solid rgba(142, 143, 153, 1)
   }
 .search-icon{
   width: 100%;
   height: 100%;
 display: flex;
 justify-content: center;
-margin-top: 19px;
 border: 1px solid var(--border-radius);
 border-radius: 4px;
 align-items: center;
@@ -525,13 +524,13 @@ color: var(--hover-focus-color);
 
 }
 .title-text{
-  line: height 1.1;
+line: height 1.1;
 }
 .search{
   width: calc((100% - 120px) / 6); 
 }
 
-.img-svg2{
+.img-svgg{
  fill: currentColor;
 
 }
