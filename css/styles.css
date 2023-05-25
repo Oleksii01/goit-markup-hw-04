@@ -425,11 +425,19 @@ background-position: center;
 }
 .worker-soc-list {
 display: flex;
-gap: 16px;
+gap: 24px;
 justify-content: center;
 
 }
-
+.worker-soc-footer {
+display: flex;
+gap: 16px;
+justify-content: center;
+}
+.worker-soc-footer:hover,
+.worker-soc-footer:focus{
+  background-color: var(--radius-two);
+}
 .worker-soc-item {
 width: 40px;
 height: 40px;
@@ -531,6 +539,10 @@ color: var(--border-radius);
 .search-icon:hover,
 .search-icon:focus{
 color: var(--hover-focus-color);
+}
+.search-icon:hover,
+.search-icon:focus{
+  border-radius: var(--hover-focus-color);
 }
 /**<!-- section 5 --> ***/
 .section-no-icons{
