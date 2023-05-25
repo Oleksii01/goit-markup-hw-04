@@ -429,10 +429,17 @@ gap: 24px;
 justify-content: center;
 
 }
-.worker-soc-footer {
+.worker-soc-list {
 display: flex;
 gap: 16px;
 justify-content: center;
+
+}
+.worker-soc-footer {
+  display: flex;
+gap: 16px;
+justify-content: center;
+
 }
 .worker-soc-footer:hover,
 .worker-soc-footer:focus{
