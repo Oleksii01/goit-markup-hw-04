@@ -469,6 +469,10 @@ align-items: center;
 .worker-soc-link:focus{
    background-color: var(--radius-two);
 }
+.worker-soc-lisen{
+  display: flex;
+  gap: 16px;
+}
 .text-worker{
   padding: 32px 0 32px;
 }
