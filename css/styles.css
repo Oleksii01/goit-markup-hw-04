@@ -429,9 +429,9 @@ gap: 24px;
 justify-content: center;
 
 }
-.worker-soc-list {
+.worker-soc-lisen {
 display: flex;
-gap: 24px;
+gap: 16px;
 justify-content: center;
 
 }
@@ -467,12 +467,8 @@ align-items: center;
 }
 .worker-soc-link:hover,
 .worker-soc-link:focus{
-   background-color: var(--radius-two);
-}
-.worker-soc-lisen{
-  display: flex;
-  gap: 16px;
-}
+background-color: var(--hover-focus-color);
+  }
 .text-worker{
   padding: 32px 0 32px;
 }
