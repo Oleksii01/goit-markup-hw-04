@@ -425,7 +425,7 @@ background-position: center;
 }
 .worker-soc-list {
 display: flex;
-gap: 24px;
+gap: 16px;
 justify-content: center;
 
 }
@@ -434,7 +434,7 @@ justify-content: center;
 width: 40px;
 height: 40px;
 justify-content: center;
-gap: 16px;
+gap: 24px;
 
 }
 .worker-soc-link {
@@ -448,7 +448,7 @@ align-items: center;
 }
 .worker-soc-link:hover,
 .worker-soc-link:focus{
-  background-color: var(--radius-two);
+   background-color: var(--hover-focus-color);
 }
 .text-worker{
   padding: 32px 0 32px;
@@ -530,7 +530,7 @@ color: var(--border-radius);
 }
 .search-icon:hover,
 .search-icon:focus{
-border-color: var(--hover-focus-color);
+color: var(--hover-focus-color);
 }
 /**<!-- section 5 --> ***/
 .section-no-icons{
