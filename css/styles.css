@@ -56,9 +56,7 @@ body {
 }
 .header{
 border-bottom: 1px solid #e7e9fc;
-box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
  .header-container{
@@ -365,6 +363,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 .team-no-img{
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;;
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),0px 1px 1px 0px rgba(46, 47, 66, 0.16),0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .desc{
   width: calc((100% - 72px) / 4);
@@ -415,10 +414,8 @@ background-position: center;
 }
 .worker-soc-list {
 display: flex;
-gap: 24px;
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+gap: 16px;
+justify-content: center;
 }
 
 .worker-soc-item {
@@ -439,7 +436,7 @@ align-items: center;
 }
 .worker-soc-link:hover,
 .worker-soc-link:focus{
-  background-color: var(--radius-two);
+  background-color: var(--hover-focus-color);
 }
 .text-worker{
   padding: 32px 0 32px;
@@ -504,10 +501,8 @@ color: var(--main-background-color);
 .socials-icon{
   display: flex;
   gap: 24px;
-  margin-right: 10px;
 }
 .search{
-  width: 168px;
   height: 88px;
   }
 .search-icon{
@@ -540,4 +535,7 @@ line: height 1.1;
 .img-svgg{
  fill: currentColor;
 
+}
+.img-svggg{
+  fill:var(--team-section-color);
 }
