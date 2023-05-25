@@ -474,9 +474,22 @@ align-items: center;
 }
 .worker-soc-link:hover,
 .worker-soc-link:focus{
+background-color: var(--hover-focus-color);
+  }
+.worker-soc-linkk {
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background-color: #4D5AE5;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.worker-soc-link:hover,
+.worker-soc-link:focus{
 background-color: var(--radius-two);
   }
-.text-worker{
+  .text-worker{
   padding: 32px 0 32px;
 }
 .img-svg{
