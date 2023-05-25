@@ -546,6 +546,7 @@ color: var(--border-radius);
 .search-icon:hover,
 .search-icon:focus{
 color: var(--hover-focus-color);
+border-color: var(--hover-focus-color);
 }
 .search-icon:hover,
 .search-icon:focus{
