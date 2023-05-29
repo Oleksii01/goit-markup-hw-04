@@ -587,14 +587,12 @@ line: height 1.1;
 .search{
   width: calc((100% - 120px) / 6); 
 }
+.img-svgg{
+  fill: currentColor;
+}
 .img-svgg:hover,
 .img-svgg:focus{
-color: var(--hover-focus-color);
-border-color: var(--hover-focus-color);
-}
-.img-svgg{
- fill: currentColor;
-
+background-color:var(--hover-focus-color);
 }
 .img-svggg{
   fill:var(--team-section-color);
