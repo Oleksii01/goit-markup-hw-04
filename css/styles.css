@@ -367,9 +367,10 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   width: calc((100% - 48px) / 3);
 }
 .team-no-img{
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;;
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),0px 1px 1px 0px rgba(46, 47, 66, 0.16),0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+background-color: var(--main-background-color);
 }
 .desc{
   width: calc((100% - 72px) / 4);
@@ -418,7 +419,9 @@ background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), u
 background-repeat: no-repeat ;
 background-size: cover;
 background-position: center;
+align-content: center;
 justify-content: center;
+margin-left: 80px;
 }
 .worker-soc-list {
 display: flex;
@@ -564,6 +567,11 @@ align-items: center;
 color: var(--border-radius);
 
 }
+.img-svgg:hover,
+.img-svgg:focus{
+  color: var(--hover-focus-color);
+border-color: var(--hover-focus-color);
+}
 .search-icon:hover,
 .search-icon:focus{
 color: var(--hover-focus-color);
@@ -572,7 +580,6 @@ border-color: var(--hover-focus-color);
 /**<!-- section 5 --> ***/
 .section-no-icons{
   padding: 120px 0 120px;
-
 }
 .title-text{
 line: height 1.1;
