@@ -421,7 +421,8 @@ background-size: cover;
 background-position: center;
 align-content: center;
 justify-content: center;
-margin-left: 80px;
+margin-left: auto;
+margin-right: auto;
 }
 .worker-soc-list {
 display: flex;
@@ -592,7 +593,8 @@ line: height 1.1;
 }
 .img-svgg:hover,
 .img-svgg:focus{
-background-color:var(--hover-focus-color);
+  color: var(--hover-focus-color);
+  border-color: var(--hover-focus-color);
 }
 .img-svggg{
   fill:var(--team-section-color);
